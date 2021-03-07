@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+.menu{
+    width: 100%;
+    background-image: linear-gradient(to top, #48c5ef4b 0%, #6f85d649 100%);
+    padding: 20px 0px 20px 20px;
+    text-align: right;
+    position: fixed;
+    z-index: 100;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    /* margin-right: 30px; */
+    background-image: linear-gradient(to top, #48c5ef49 0%rgba(111, 133, 214, 0.233)d6 100%);
+    padding: 21px;
+    margin-left: -5px;  
+     
+}
+
+.menu a:hover{
+    background: aqua;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    text-align: center;
+    color: #fff;
+    /* background-attachment: fixed; */
+    position: relative;
+    
+}
+
+.imagen{
+    width: 500px;
+    height: 350px;
+    
+}
+
+.titulo{
+    font-size: 40px;
+    color: midnightblue;
+}
+
+.enlace{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #000;
+    background-color: navy;
+    color: #fff;
+    width: 100px;
+    margin-top: 5px;
+    padding: 5px 0;
+    border-radius: 30px;
+}
+
+.absolute{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+.section{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.sect1{
+    background-image: url(img/fondo1.jpg);
+    padding: 0.1px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    margin: 3% auto;
+}
+
+.contenido{
+    width: 50%;
+    height: 60%;
+    background: linear-gradient(to right, #da4453cb, #89216bbd);
+    margin: 0% auto;
+    padding: 0.1px;
+    text-align: center;
+    padding-top: 2%;
+    box-shadow: -6px 6px 6px 2px rgba(255,255,255,0.65);
+}
+
+.contenido3{
+    width: 50%;
+    height: 60%;
+    background: linear-gradient(to right, #00f260, #0575e6);
+    margin: 0% auto;
+    padding: 0.1px;
+    text-align: center;
+    padding-top: 2%;
+    box-shadow: -6px 6px 6px 2px rgba(255,255,255,0.65);
+}
+
+.video{
+    width: 70%;
+    height: 70%;
+    margin-top: 5%;
+    
+}
+
+.section a{
+    width: 20%;
+    display: block;
+    text-decoration: none;
+    background-color: coral;
+    padding: 2%;
+    margin: 2% auto;
+    color: white;
+}
+
+
+
+a:hover{
+    background-color: cyan;
+}
+
+.sect2{
+    background-image: url(img/laptop2.jpg);
+    padding: 0.1px;
+}
+
+.sect3{
+    background-image: url(img/fondo2.jpg);
+    padding: 0.1px;
+}
+
+
+@media screen and (max-width:950px){
+    nav{
+        width: 45%;
+    }
+    header{
+        width: 45%;
+    }
+    section{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:550px){
+    nav{
+        width: 70%;
+    }
+    header{
+        width: 70%;
+    }
+    h1{
+        font-size: 30px ;
+    }
+    img[class="imagen"]{
+        width: 400px;
+        height: 250px;
+        margin-top: 60px;
+    }
+    .contenido{
+        width: 90%;
+    }
+    .contenido3{
+        width: 90%;
+    }
+    .video{
+        width: 90%;
+        height: 70%;
+    }
+    
+    
+
+    a[href="#section2"]{
+        width: 70%;
+    }
+    a[href="#section3"]{
+        width: 70%;
+    }
+    a[href="#home"]{
+        width: 70%;
+    }
+    section{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:410px){
+    nav{
+        width: 70%;
+    }
+    header{
+        width: 100%;
+    }
+    h1{
+        font-size: 30px ;
+    }
+    img[class="imagen"]{
+        width: 400px;
+        height: 250px;
+        margin-top: 60px;
+    }
+    .contenido{
+        width: 90%;
+    }
+    .contenido3{
+        width: 90%;
+    }
+    .video{
+        width: 90%;
+        height: 70%;
+    }
+    
+
+    a[href="#section2"]{
+        width: 70%;
+    }
+    a[href="#section3"]{
+        width: 70%;
+    }
+    a[href="#home"]{
+        width: 70%;
+    }
+    section{
+        width: 70%;
+    }
+}
